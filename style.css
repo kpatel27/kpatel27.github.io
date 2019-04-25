@@ -33,3 +33,86 @@ body {
 .navbar .content .footer {
   padding: 1em;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  padding: 1em 0;
+}
+
+nav li a {
+  color: black;
+  font-weight: 700;
+  opacity: 0.6;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav li a:hover {
+  opacity: 1;
+}
+
+.image {
+  max-width: 960px;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.image img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.bio h1 {
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.bio p {
+  font-weigth: 300;
+  line-height: 1.8em;
+  color: white;
+}
+
+.btn {
+  display: in-line block;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  background: seagreen;
+  padding: 0.5em 2em;
+  border-radius: 40px;
+  margin: 1em 0;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0 10px 50px black;
+}
+
+footer ul {
+  max-width: 640px;
+  margin: 2em auto;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul li {
+  list-style: none;
+  align-self: flex-end;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 115px;
+}
