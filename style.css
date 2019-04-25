@@ -1,0 +1,35 @@
+body {
+  font-family: "Lucida Grande", sans-serif;
+  background: #DFDFDF;
+}
+
+.content {
+  grid-area: content;
+}
+
+.navbar {
+  grid-area: navbar;
+  background-image: linear-gradient(to right, #C2EBEC, #4CEFEA, #21B8DC);
+}
+
+.footer {
+  grid-area: footer;
+  background: white;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  font-size: 1.5em;
+  display: grid;
+  grid-template-areas:
+    "navbar"
+    "content"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 130px 800px 250px;
+}
+
+.navbar .content .footer {
+  padding: 1em;
+}
