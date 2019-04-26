@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: "Lucida Grande", sans-serif;
-  background: #DFDFDF;
+  background: white;
+  font-size: 1em;
 }
 
 .content {
@@ -14,7 +19,7 @@ body {
 
 .footer {
   grid-area: footer;
-  background: white;
+  background: lightgray;
 }
 
 .container {
@@ -27,7 +32,7 @@ body {
     "content"
     "footer";
   grid-template-columns: 1fr;
-  grid-template-rows: 130px 800px 250px;
+  grid-template-rows: 100px auto 130px;
 }
 
 .navbar .content .footer {
@@ -38,8 +43,9 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
+  vertical-align: middle;
 }
 
 nav li {
@@ -78,7 +84,8 @@ nav li a:hover {
 .bio p {
   font-weigth: 300;
   line-height: 1.8em;
-  color: white;
+  color: black;
+  margin: 10px 0 40px 0;
 }
 
 .btn {
