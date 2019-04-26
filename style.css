@@ -123,3 +123,26 @@ footer ul li a {
   color: black;
   margin-left: 115px;
 }
+
+/*-----larger screens------*/
+
+@media only screen and (min-width: 992px) {
+  .container {
+    grid-template-areas:
+      "navbar content"
+      "navbar footer";
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr auto
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    background: linear-gradient(#C2EBEC, #4CEFEA, #21B8DC);
+    padding-top: 3em;
+  }
+}
