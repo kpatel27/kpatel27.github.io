@@ -1,68 +1,218 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <title>Krunal's Portfolio</title>
+    <meta name="generator" content="Hugo 0.64.1" />
+    <title>Krunal Patel</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicons/site.webmanifest" />
+
+    <meta property="og:title" content="Krunal Patel" />
+    <meta property="og:image" content="assets/images/krunal_patel.jpg" />
+    <meta
+      property="og:description"
+      content="Full-stack software engineer based in the Bay Area with experience in with AWS, Ruby-on-Rails, Node.js, React, and SQL"
+    />
+    <meta property="og:url" content="kpatel27.github.io.com" />
   </head>
 
   <body>
-      <header>
-        <nav id="navbar">
-          <ul>
-            <li><a class="nav-links" href="#welcome-section">About</a></li>
-            <li><a class="nav-links" href="#projects">Projects</a></li>
-            <li><a class="nav-links" href="#contacts">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+    <div class="logo-links">
+      <a href="https://github.com/kpatel27" target="_blank">
+        <img
+          class="icon"
+          src="assets/icons/github.svg"
+          alt="github logo"
+          id="github-logo"
+        />
+      </a>
 
-      <main id="content">
-        <section id="welcome-section">
-          <h1>Self-Taught Frontend Developer</h1>
-          <p>Hi, I'm a passionate programmer who loves building websites with great user interface.
-            <a href="#" id="email"></br>Email</a> me for more information.
-          </p>
-        </section>
-        <div id="projects">
-          <h2>My Projects</h2>
-          <div class="project-tile">
-            <a href="https://codepen.io/kpatel27-the-sans/full/ZZRXoo" target="_blank">Image Coming Soon</a>
-            <p class="project-title">Technical Documentation</p>
-          </div>
-          <div class="project-tile">
-            <a href="https://codepen.io/kpatel27-the-sans/full/oOodjK" target="_blank">Image Coming Soon</a>
-            <p class="project-title">Survey Form</p>
-          </div>
-          <div class="project-tile">
-            <a href="https://codepen.io/kpatel27-the-sans/full/LvdVPw" target="_blank">Image Coming Soon</a>
-            <p class="project-title">Product Landing Page</p>
-          </div>
-          <div class="project-tile">
-            <a href="https://codepen.io/kpatel27-the-sans/full/WWZZQW" target="_blank">Image Coming Soon</a>
-            <p class="project-title">Tribute Page</p>
-          </div>
-          <a id="view-more" href="https://codepen.io/kpatel27-the-sans/" target="_blank">View More</a>
-        </div>
-        <div id="contacts">
-          <h2>Contact for more info</h2>
-          <div class="contact">
-            <i class="fas fa-envelope-open-text fa-2x"></i>
-            <span>abcdef@gmail.com</span>
-          </div>
-          <div class="contact">
-            <i class="fas fa-phone fa-2x"></i>
-            <span>+1 (123) 456-7890</span>
-          </div>
-          <div class="contact">
-            <a id="profile-link" href="https://www.freecodecamp.org/kppatel" target="_blank">freeCodeCamp</a>
-          </div>
-        </div>
-      </main>
+      <a href="assets/mark_hyams_resume.pdf" target="_blank">
+        <img
+          class="icon"
+          src="assets/icons/resume.svg"
+          alt="link to resume"
+          id="resume-logo"
+        />
+      </a>
 
-      <footer id="footer">
-      </footer>
+      <a href="https://www.linkedin.com/in/krunal-p-patel/" target="_blank">
+        <img
+          class="icon"
+          src="assets/icons/linkedin.svg"
+          alt="LinkedIn link"
+          id="linkedin-logo"
+        />
+      </a>
+    </div>
+
+    <main>
+      <section id="intro" class="flexbox horz-center">
+        <img
+          id="avatar"
+          src="assets/images/krunal_patel.jpg"
+          alt="Photo of Krunal Patel"
+        />
+        <h2 id="name">Krunal Patel</h2>
+        <p>
+          I am a full-stack software engineer based in the Bay Area. I have
+          experience with AWS, Ruby-on-Rails, Node.js, React, and SQL.
+        </p>
+
+        <p>
+          Most recently, I built
+          <a class="jade jade" href="https://jadeframework.dev/" target="_blank"
+            >Jade</a
+          >, an open-source framework for deploying JAMstack applications on AWS
+          cloud infrastructure.
+        </p>
+      </section>
+
+      <section id="jade" class="flexbox horz-center">
+        <div id="jade-title-container" class="flexbox">
+          <a href="https://jadeframework.dev/" target="_blank"
+            ><img
+              id="jade-logo"
+              src="assets/images/jade_logo-type.png"
+              alt="jade logo"
+          /></a>
+        </div>
+        <div id="jade-info-container" class="flexbox">
+          <div>
+            <img
+              id="jade-gif"
+              src="assets/gifs/jade_init.gif"
+              alt="Initializing the Jade deployment environment"
+            />
+          </div>
+          <div class="flexbox horz-center">
+            <p>
+              <a class="jade" href="https://jadeframework.dev/" target="_blank"
+                >Jade</a
+              >
+              is an open-source framework that makes it simple to deploy and
+              maintain JAMstack applications on AWS cloud infrastructure.
+            </p>
+
+            <p>
+              The JAMstack is a web development architecture that utilizes
+              modern tools and practices to make web apps fast, secure and
+              highly scalable. Jade abstracts away the time and complexity of
+              provisioning services and writing backend code related to the
+              underlying infrastructure so that developers can focus on building
+              their applications.
+            </p>
+
+            <a
+              id="jade-repo-btn"
+              class="btn"
+              target="_blank"
+              href="https://jadeframework.dev/"
+              >READ THE CASE STUDY</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="flexbox horz-center">
+        <h2>Other projects</h2>
+        <ul class="flexbox vert-center">
+          <li>
+            <img
+              src="assets/images/project-manager.png"
+              alt="Screenshot of project management application"
+            />
+            <h4>Project Manager</h4>
+            <p>
+              A Trello-like project management application using React/Redux on
+              the frontend with Ruby-on-Rails API and PostgreSQL database on the
+              backend.
+            </p>
+          </li>
+          <li>
+            <img
+              src="assets/images/airline-routes.png"
+              alt="Screenshot of airline routes application"
+            />
+            <h4>Airline Routes</h4>
+            <p>
+              A web application built with React that lists airline routes based
+              on source/destination.
+            </p>
+          </li>
+          <li>
+            <img
+              src="assets/images/todos-jquery.png"
+              alt="Screenshot of todos application"
+            />
+            <h4>Todo</h4>
+            <p>
+              An interactive todo application built with Node.js, Handlebars.js,
+              jQuery and an Express.js API.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="flexbox horz-center">
+        <h3>Contact</h3>
+        <h4>
+          <a id="email" href="mailto:kppatel727@gmail.com"
+            >kppatel727@gmail.com</a
+          >
+        </h4>
+        <ul class="flexbox vert-center">
+          <li>
+            <a href="assets/mark_hyams_resume.pdf" target="_blank">
+              <img
+                class="icon"
+                src="assets/icons/resume.svg"
+                alt="link for resume"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/kpatel27" target="_blank">
+              <img
+                class="icon"
+                src="assets/icons/github.svg"
+                alt="link to GitHub profile"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/krunal-p-patel/"
+              target="_blank"
+            >
+              <img
+                class="icon"
+                src="assets/icons/linkedin.svg"
+                alt="link to  LinkedIn profile"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
