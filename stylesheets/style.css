@@ -242,6 +242,10 @@ footer {
   width: 100%;
 }
 
+#contact p {
+  width: 500px;
+}
+
 .btn:hover {
   background-color: var(--color-jade-dark);
 }
@@ -391,6 +395,29 @@ div > iframe {
   position: fixed;
   top: 5px;
   left: 5px;
+}
+
+#connect {
+  margin-top: 50px;
+}
+
+button {
+  padding: 16px 32px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #818181;
 }
 
 #github-logo {
